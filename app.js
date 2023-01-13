@@ -16,7 +16,7 @@ app.set('views', './src/views');
 app.set('view engine', 'ejs');
 
 app.get('/', (req, res) => {
-  res.render('index', { list: ['a', 'b'], title: 'Library' });
+  res.render('index', { list: ['a', 'b'], title: 'NyumbaKumiApp Hub' });
 });
 
 app.listen(port, () => {
